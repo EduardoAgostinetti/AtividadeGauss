@@ -54,11 +54,11 @@ public class Main {
     public static void main(String[] args) {
         // Exemplo de um sistema de equações
         double[][] A = {
-                {2, -3, 1},
-                {4, -6, -1},
-                {1, 2, 1}
+                {5, 2, 1},
+                {-1, 4, 2},
+                {2, -3, 10}
         };
-        double[] b = {-5, -7, 4};
+        double[] b = {-12, 20, 3};
 
         double[] solution = gaussElimination(A, b);
 
